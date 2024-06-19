@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bruno fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    /* css reset */
+    body{
+        color: azure;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/abs-1850926_1280.jpg");
+        /* font-family: cursive; */
+    }
+    .left{
+        position: absolute;
+        left: 30px;
+        top: 10px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+    .left img{
+        width: 130px;
+        /* filter: invert(100%); */
+    }
+    .left div{
+        text-align: center;
+        font-size: 15px;
+    }
+    .mid{
+        
+        display: block;
+        width: 33%;
+        margin: 30px auto;
+        /* border: 2px solid rgb(15, 241, 64); */
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid rgb(187, 236, 8); */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    
+    }
+    .navbar li a{
+        color: azure;
+        text-decoration: none;
+        padding: 5px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+        
+        
+    }
+    .btn{
+    
+
+        margin: 0px 9px;
+        padding: 4px 14px;
+        background-color: black;
+        color: azure;
+        border: 2px solid grey;
+        border-radius: 15%;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        right: auto;
+        /* border: 2px solid wheat; */
+        margin: 60px 60px;
+        padding: 40px 40px;
+        margin-left:  auto;
+        width: 33%;
+        border-radius: 25px;
+        
+    }
+    .form-group input{
+        text-align: center;
+        text-decoration: none;
+        border: 2px solid black;
+        width: 400px;
+        padding: 4px;
+        margin: 3px;
+        border-radius: 10px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 90%;
+        margin:  5px 10px;
+        padding: 2px;
+        border-radius: 10px ;
+
+    }
+
+    </style>
+</head>
+<body>
+    <header classs="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/fitness-6237345_1280.jpg" alt="">
+            <div>Bruno Fitness</div>
+            
+
+        </div>
+
+        <!-- mid box for navigation bar -->
+        <div class="mid ">
+            <ul class="navbar">
+                <li><a href="#"
+                    >Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+
+        </div>
+
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best gym of indore now:</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Ur Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Ur Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Ur Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Ur Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Ur Phone No">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Ur Email Id">
+            </div>
+            <button class="btn">submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
